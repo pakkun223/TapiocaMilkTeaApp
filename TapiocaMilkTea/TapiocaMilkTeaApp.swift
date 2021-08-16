@@ -11,7 +11,7 @@ import SwiftUI
 struct TapiocaMilkTeaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OrderDetail(order: orderStore.orders[0])
         }
     }
 }
